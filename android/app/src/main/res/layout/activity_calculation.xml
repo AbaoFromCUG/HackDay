@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cuger.demon.demon.CalculationActivity">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:src="@drawable/victory"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="440dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>
